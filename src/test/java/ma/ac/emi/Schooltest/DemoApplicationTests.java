@@ -30,7 +30,7 @@ public class DemoApplicationTests {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 
-		final String baseUrl = "http://localhost:8080/login";
+		final String baseUrl = "http://localhost:9090/login";
 		URI uri = new URI(baseUrl);
 
 		HttpHeaders head = new HttpHeaders();
@@ -48,7 +48,7 @@ public class DemoApplicationTests {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 
-		final String baseUrl = "http://localhost:8080/login";
+		final String baseUrl = "http://localhost:9090/login";
 		URI uri = new URI(baseUrl);
 
 		HttpHeaders head = new HttpHeaders();
@@ -66,7 +66,7 @@ public class DemoApplicationTests {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 
-		final String baseUrl = "http://localhost:8080/login";
+		final String baseUrl = "http://localhost:9090/login";
 		URI uri = new URI(baseUrl);
 
 		HttpHeaders head = new HttpHeaders();
@@ -84,7 +84,7 @@ public class DemoApplicationTests {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 
-		final String baseUrl = "http://localhost:8080/login";
+		final String baseUrl = "http://localhost:9090/login";
 		URI uri = new URI(baseUrl);
 
 		HttpHeaders head = new HttpHeaders();
